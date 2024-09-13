@@ -1,12 +1,12 @@
-{# phpblock #}
-
-{% block last_products %}
-
-{% for product in products %}
-    * Name: {{ product.name|e }}
-    {% if product.status === "Active" %}
-       Price: {{ product.price + product.taxes/100 }}
-    {% endif  %}
-{% endfor  %}
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    
+</body>
+</html>
