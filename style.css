@@ -9,9 +9,9 @@ p {
     padding: 0;
 }
 
-a {
+a, li{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .inline {
@@ -19,7 +19,7 @@ a {
 }
 
 header {
-    background-color: cornflowerblue;
+    background-color: #305389;
     height: 200px;
     width: 100%;
     position: absolute;
@@ -66,6 +66,11 @@ main {
     z-index: 0;
 }
 
+#logo {
+    width: 300px;
+    margin-left: 30px;
+}
+
 .content {
     margin-top: 80px;
     margin-left: 100px;
@@ -82,4 +87,27 @@ main {
 
 .arrows {
     margin-left: 500px;
+}
+
+.icons img {
+    width: 40px;
+    height: auto;
+}
+
+.top {
+    background: url(images/top.png);
+    padding-left: 500px;
+    width: 100%;
+}
+
+.top-text {
+    padding: 5px;
+}
+.top-list ul{ 
+    list-style: none;
+}
+.top-list ul li{
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
 }
